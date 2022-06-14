@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <script src="learnmore.js" defer></script>
+
+    <style>
+        body {
+            background-image: url('food.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 0;
+            background-attachment: fixed;
+        }
+
+
+
+
+        .labels {
+            font-family: Cambria;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: center;
+            color:#ffff;
+            background-color: black;
+            position: absolute;
+            top: 36%;
+            width: 100%;
+            opacity: 0.7;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+
+        div button {
+            position: absolute;
+            bottom: 200px;
+            right: 555px;
+            color: white;
+            background-color: #999900;
+            padding: 10px;
+            font-size: 20px;
+            border: thin 2px white;
+        }
+
+        
+        div input {
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+            background-color: #999900;
+            position: absolute;
+            bottom: 29.5%;
+            right:51%;
+            border: thin 2px white;
+        }
+
+        li {
+            display: inline;
+            margin: 4px;
+        }
+
+        div > form:active {
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            margin-top: 0;
+            padding-left: 6px;
+        }
+
+        .links {
+            text-align: right;
+            font-size: 18px;
+            padding: 1px;
+            margin-top: 0;
+            background-color: black;
+            opacity: 0.7;
+        }
+    </style>
+
+</head>
+<body>
+        <div class="labels">
+            <h1>French restaurante</h1>
+            <h1>𝓌𝑒'𝓇𝑒 𝓉𝒽𝑒 𝒷𝑒𝓈𝓉 𝓇𝑒𝓈𝓉𝒶𝓊𝓇𝒶𝓃𝓉 𝒾𝓃 𝓉𝑜𝓌𝓃</h1>
+        </div>
+
+        <div>
+            <a href="booking.html">
+                <button style="right:705px;">Book a visit</button>
+            </a>
+            <button type="button">Learn More</button>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="#Blog">blog</a></li>
+                <li><a href="#Menu">menu</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Contact">Contacts</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Home">Home</a></li>
+            </ul>
+        </div>
+        <div id="demo">
+            <button  type="button" onclick="loadDoc()">Learn More</button>
+        </div>
+    </body>
+</html>
